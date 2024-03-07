@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form Example</title>
+  </head>
+  <body>
+    <h1>HTML Form Example</h1>
+
+    <form action="https://formspree.io/f/meqykdry" method="post">
+      <label for="name">Name:</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter Your Name"
+        required
+      /><br />
+
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter Your Email"
+        required
+      /><br />
+
+      <label for="option1">Option 1</label>
+      <input type="radio" id="option1" name="radioGroup" value="option1" />
+
+      <label for="option2">Option 2</label>
+      <input type="radio" id="option2" name="radioGroup" value="option2" />
+
+      <label for="option3">Option 3</label>
+      <input type="radio" id="option3" name="radioGroup" value="option3" />
+  
+      <br>
+
+      <label for="checkbox1">Option 1</label>
+      <input
+        type="checkbox"
+        id="checkbox1"
+        name="checkboxGroup"
+        value="option1"
+      />
+
+      <label for="checkbox2">Option 2</label>
+      <input
+        type="checkbox"
+        id="checkbox2"
+        name="checkboxGroup"
+        value="option2"
+      />
+
+      <label for="checkbox3">Option 3</label>
+      <input
+        type="checkbox"
+        id="checkbox3"
+        name="checkboxGroup"
+        value="option3"
+      />
+
+      <br>
+
+      <label for="message">Message:</label><br />
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        cols="50"
+        placeholder="Enter Message"
+        required
+      ></textarea
+      ><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
