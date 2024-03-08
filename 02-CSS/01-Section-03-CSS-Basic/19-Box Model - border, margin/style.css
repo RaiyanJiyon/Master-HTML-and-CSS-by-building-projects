@@ -1,0 +1,22 @@
+/* best practice to define border-box properties in universal selector */
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    background-color: aqua;
+    width: 400px;
+    padding: 10px;
+    border: 10px solid greenyellow;
+    margin: 10px;
+
+    /* total width = 400px - padding right + left (10px + 10px) - border right + left (10px + 10px) = 360px */
+
+    /* magrin don't take space from width if we are use border-box properties */
+}
+
+h2 {
+    background-color: hotpink;
+}

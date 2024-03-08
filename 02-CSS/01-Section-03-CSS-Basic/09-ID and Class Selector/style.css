@@ -1,0 +1,19 @@
+#blog {
+    text-align: center;
+    background-color: aquamarine;
+    color: rgb(143, 114, 119);
+}
+
+.about{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: hotpink;
+    color: aquamarine;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.copyright {
+    font-size: 2rem;
+    color: blueviolet;
+}

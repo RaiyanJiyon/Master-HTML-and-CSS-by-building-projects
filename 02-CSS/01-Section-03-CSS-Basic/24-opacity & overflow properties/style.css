@@ -1,0 +1,24 @@
+.container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    overflow: auto; /* Set overflow property to control content overflow */
+  }
+
+  .opaque {
+    background-color: #ff0000;
+    opacity: 0.5; /* Set opacity to 50% */
+  }
+
+  .transparent {
+    background-color: #0000ff;
+    opacity: 0.7; /* Set opacity to 70% */
+  }
+
+  .logo {
+    opacity: 0.5;
+  }
+
+  .logo:hover {
+    opacity: 1;
+  }

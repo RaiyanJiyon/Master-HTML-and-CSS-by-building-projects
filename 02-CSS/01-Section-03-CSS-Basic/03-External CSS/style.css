@@ -1,0 +1,17 @@
+img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px; /* Corrected from 'weight' to 'width' */
+}
+
+h1 {
+    text-align: center;
+    background-color: greenyellow;
+    color: rgb(66, 77, 77);
+}
+
+p {
+    background-color: hotpink;
+    color: rgb(20, 101, 101);
+}

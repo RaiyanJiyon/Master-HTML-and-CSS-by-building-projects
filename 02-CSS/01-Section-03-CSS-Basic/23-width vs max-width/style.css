@@ -1,0 +1,12 @@
+.para1 {
+    background-color: greenyellow;
+    width: 500px;
+    height: 15vh;
+}
+
+.para2 {
+    background-color: hotpink;
+    /* width: 500px; */
+    max-width: 500px;
+    height: 85vh;
+}

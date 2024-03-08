@@ -1,0 +1,10 @@
+/* This will select only a tag inside the ul and li  */
+ul li a {
+    color: brown;
+}
+
+/* This will select only p which one in the div tag */
+
+div p {
+    color: aqua;
+}

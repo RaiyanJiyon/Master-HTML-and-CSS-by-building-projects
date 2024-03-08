@@ -1,0 +1,18 @@
+.trash-icon {
+    font-size: 12rem;
+    color: aquamarine;
+}
+
+.trash-icon:hover {
+    color: red;
+}
+
+.heart-symbol {
+    font-size: 6rem;
+    color: red;
+}
+
+.heart-symbol:hover {
+    font-size: 12rem;
+    color: green;
+}

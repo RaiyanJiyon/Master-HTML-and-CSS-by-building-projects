@@ -1,0 +1,21 @@
+h1 {
+    background-color: aqua;
+    width: 400px;
+
+    /* padding is work like clock wise -> top, right, buttom, left */
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    /* or we can write like this also */
+    /* padding: 10px;  */
+
+    /* or we can define like this */
+    /* padding: 10px 5px;  */
+    /* first 10px will cover top and buttom and last 5px cover left and right */
+}
+
+h2 {
+    background-color: hotpink;
+}

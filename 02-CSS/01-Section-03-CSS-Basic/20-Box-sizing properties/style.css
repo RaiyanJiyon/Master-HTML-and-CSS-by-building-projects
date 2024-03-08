@@ -1,0 +1,13 @@
+h1 {
+    background-color: aqua;
+    width: 400px;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 10px;
+
+    /* total width = 400px + padding right + left (10px + 10px) + border right + left (10px + 10px) + margin right + left (10px + 10px) = 460px */
+}
+
+h2 {
+    background-color: hotpink;
+}

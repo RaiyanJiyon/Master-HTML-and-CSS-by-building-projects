@@ -1,0 +1,24 @@
+/* h1 {
+    background-color: aqua;
+}
+
+h2 {
+    background-color: hotpink;
+} */
+
+a {
+    background-color: #3feb5f;
+    border: 2px solid blueviolet;
+    margin: 10px;
+    display: inline-block;
+}
+
+/* we can convert inline element to block element and also block element to inline element */
+
+/* h1, h2 {
+    display: inline;
+} */
+
+/* a {
+    display: block;
+} */

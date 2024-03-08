@@ -1,0 +1,20 @@
+/* Descendant */
+/* div p {
+    background-color: aquamarine;
+} */
+
+
+/* child selector  */
+div > p {
+    background-color: yellow;
+}
+
+/* Adjacent Element -> this will select first p afte div */
+div + p {
+    background-color: hotpink;
+}
+
+/* general sibiling selector -> this will select every p after div */
+/* div ~ p {
+    background-color: aqua;
+} */
