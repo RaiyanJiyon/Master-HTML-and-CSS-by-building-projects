@@ -75,3 +75,32 @@ nav ul li:hover {
 /* header starts here */
 
 
+/* Responsiveness starts here */
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 55.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 48.5%;
+    }
+
+    header {
+        flex-direction: column;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        padding-left: 2.5rem;
+    }
+}
+
+/* Responsiveness endss here */
+
